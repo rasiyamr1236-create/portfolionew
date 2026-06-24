@@ -96,3 +96,16 @@ window.addEventListener('resize', () => {
         navLinks.style.display = 'none';
     }
 });
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  let name = document.getElementById("name").value;
+  let email = document.getElementById("email").value;
+  let message = document.getElementById("message").value;
+
+  let mailtoLink = mailto:youremail@gmail.com?subject=Message from ${name}&body=${message} (From: ${email});
+
+  window.location.href = mailtoLink;
+
+  document.getElementById("status").innerText = "Opening mail app...";
+});
