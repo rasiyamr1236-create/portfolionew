@@ -384,63 +384,7 @@ section {
 /* Contact Section */
 #contact {
   display: flex;
-  justify-content: center;
-  padding: 60px 20px;
-  background: #f5f5f5;
-}
-
-.contact-container {
-  width: 100%;
-  max-width: 450px;
-  background: #fff;
-  padding: 25px;
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
-
-.contact-container h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.input-box {
-  margin-bottom: 15px;
-  display: flex;
-  flex-direction: column;
-}
-
-input, textarea {
-  padding: 12px;
-  border-radius: 10px;
-  border: 1px solid #ddd;
-  outline: none;
-  margin-top: 5px;
-}
-
-textarea {
-  min-height: 120px;
-  resize: none;
-}
-
-button {
-  width: 100%;
-  padding: 12px;
-  border: none;
-  background: #0f3d2e;
-  color: white;
-  border-radius: 10px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-button:hover {
-  background: #145c42;
-}
-
-#status {
-  text-align: center;
-  margin-top: 10px;
-}
+  
 
 .contact-container {
     display: flex;
